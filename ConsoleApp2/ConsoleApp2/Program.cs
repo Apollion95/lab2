@@ -22,16 +22,11 @@ namespace ConsoleApp2
             Console.WriteLine("Podaj C \n",c);
             c = System.Int32.Parse(Console.ReadLine());
 
-            if (a == 0)
-            {
-                Console.WriteLine("Nie moze wystepowac 0 \n");
-            } 
-            else
-            {
+            
                 delta = (b * b) - (4 * a * c);
                 Console.WriteLine("Wprowadzono A: " + a + " B: " + b + " C: " + c + " ");
                 Console.Write("Delta Wynosi : " + delta + " \n");
-            }
+          
             if (delta > 0)
                 operacja = 2;
             else
